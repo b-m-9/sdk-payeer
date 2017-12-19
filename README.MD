@@ -25,7 +25,7 @@ payeerMerchant
     });
 
 ```
-##Browse function:
+## Browse function:
 ```javascript
 function payment(param) {
     var method = param.method || "post";
