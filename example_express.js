@@ -6,7 +6,7 @@ var app = express();
 // Fail URL: redirect client to url
 // Status URL:
 
-const payeer = new Payeer(0, 'secret', {debug: false});
+const payeer = new Payeer(447357451, 'secret', {debug: false});
 payeer.getOrderId({
     m_amount: 10.121,
     m_curr: 'usd',
@@ -22,3 +22,4 @@ payeer.getOrderId({
     .catch((error) => {
         console.error('Create Error,', error);
     });
+
