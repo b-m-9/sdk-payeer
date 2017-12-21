@@ -1,4 +1,4 @@
-var merchant = require('./lib/merchant');
-var api = require('./lib/api');
-module.exports.merchant = merchant;
-module.exports.api = api;
+
+module.exports.merchant = require('./lib/merchant');
+
+module.exports.api = require('./lib/api');

@@ -1,10 +1,10 @@
 ### Installation
 ```
-npm install --save lib-payeer
+npm install --save sdk-payeer
 ```
 require module
 ```javascript
-const Payeer = require('lib-payeer');
+const Payeer = require('sdk-payeer');
 ```
 ## Merchant Documentation:
 Init
