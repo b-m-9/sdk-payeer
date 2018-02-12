@@ -7,6 +7,8 @@ require module
 const Payeer = require('sdk-payeer');
 ```
 ## Merchant Documentation:
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmedve-dev%2Fsdk-payeer.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmedve-dev%2Fsdk-payeer?ref=badge_shield)
+
 Init
 ```javascript
 const config_id = 0;
@@ -86,3 +88,6 @@ payeer.getPaySystems().then(console.log).catch(console.error);
 payeer.transfer({curIn:'USD',curOut:'USD',to:'P13159502',sum:1,protectCode:'12345'}).then(console.log).catch(console.error);
 
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmedve-dev%2Fsdk-payeer.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmedve-dev%2Fsdk-payeer?ref=badge_large)
